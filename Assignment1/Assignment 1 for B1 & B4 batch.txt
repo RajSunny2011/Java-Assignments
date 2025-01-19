@@ -4,9 +4,9 @@ TITLE: Basic Java Programming
 
 	*****
 	 ****
-      ***
-       **
-        *
+	  ***
+	   **
+	    *
 
 2. Write a Java program that calculates the electricity bill based on the number of units consumed by a user. The electricity charges are determined as follows:
 * For consumption between 1 and 100 units, the cost is Rs 5 per unit.
