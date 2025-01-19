@@ -1,0 +1,26 @@
+TITLE: Basic Java Programming
+	
+1. Print this Pattern:
+
+	*****
+	 ****
+      ***
+       **
+        *
+
+2. Write a Java program that calculates the electricity bill based on the number of units consumed by a user. The electricity charges are determined as follows:
+* For consumption between 1 and 100 units, the cost is Rs 5 per unit.
+* For consumption between 101 and 200 units, the cost is Rs 7 per unit.
+* For consumption between 201 and 300 units, the cost is Rs 10 per unit.
+* For consumption exceeding 300 units, the cost is Rs 15 per unit.
+The program should:
+1. Take the total units consumed as input.
+2. Calculate the total electricity bill based on the charges above.
+3. Display the total electricity bill.
+Example Input/Output:
+* Input: 150
+* Output: The total electricity bill is Rs 850.
+
+3. Write a program to find the area of a shape (Rectangle, Square, Circle, Triangle) using method overloading.
+
+4. Write a Java program that takes an operator (+, -, *, /, %) and two numbers as input from the user. Use a switch statement to perform the specified operation and display the result.
