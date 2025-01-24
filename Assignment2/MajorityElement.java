@@ -2,7 +2,6 @@ import java.util.HashMap;
 public class MajorityElement {
     public static void main(String[] args) {
         int numbers[] = {1,2,4,6,4,4,4};
-        boolean flag = true;
         HashMap<Integer, Integer> occurenceHashMap = new HashMap<>();
         for (int i : numbers) {
             if (occurenceHashMap.containsKey(i)){
@@ -14,13 +13,9 @@ public class MajorityElement {
         }
         for (int i : occurenceHashMap.keySet()) {
             if (occurenceHashMap.get(i)>(numbers.length/2)){
-                System.out.println("Majority: "+i);
-                flag = false;
+                System.out.println(i);
                 break;
             }
-        }
-        if (flag) {
-        System.out.println("No Majority");
         }
     }
 }

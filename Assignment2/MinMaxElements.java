@@ -7,6 +7,6 @@ public class MinMaxElements {
             max = (max < i) ? i : max;
             min = (min > i) ? i : min;
         }
-        System.out.println("Max: "+max+" Min: "+min);
+        System.out.printf("[%d, %d]", max, min);
     }
 }
