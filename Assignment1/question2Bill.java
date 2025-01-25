@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Bill {
+public class question2Bill {
     public static int calculateBill(int totalUnits){
         int charge = 0, currentBracket = 0;
         int chargeBrackets[] = {5,7,10,15};

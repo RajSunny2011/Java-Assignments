@@ -1,5 +1,5 @@
 import java.util.HashMap;
-public class MajorityElement {
+public class question2MajorityElement {
     public static void main(String[] args) {
         int numbers[] = {1,2,4,6,4,4,4};
         HashMap<Integer, Integer> occurenceHashMap = new HashMap<>();

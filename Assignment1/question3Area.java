@@ -1,4 +1,4 @@
-public class Area {
+public class question3Area {
     static int area(int length, int height){
         return length*height;
     }

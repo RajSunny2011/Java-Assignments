@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Calculate {
+public class question4Calculate {
     public static void main(String[] args) {
         float a, b;
         String op;

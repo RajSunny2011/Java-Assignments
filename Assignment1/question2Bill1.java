@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class BillOld {
+public class question2Bill1 {
     public static void main(String[] args) {
         int totalUnits, charge = 0, remainingUnits;
         try (Scanner in = new Scanner(System.in)){
