@@ -1,0 +1,42 @@
+TITLE: Classes (Constructors, Access Modifiers, Method Overloading, Static & Non-Static Members, this)
+
+1. Create a Book class with attributes title and author.
+Assign default values (e.g., "Untitled", "Unknown Author").
+Accept user-defined values for title and author.
+Add another constructor that also includes an integer parameter for publicationYear.
+Objective: Create multiple Book objects using the different constructors and display their details.
+
+2.  Declare a Customer class with a private variable balance.
+Implement a public addBalance(double amount) method to add funds.
+Implement a protected deductBalance(double amount) method to reduce funds.
+Define a default-access (package-private) method showBalance() to display the current balance.
+Overload the addBalance(...) method to also accept an int amount for smaller deposits.
+Objective: Create an instance of the Customer class Showcase method overloading for different deposit parameters.
+
+3. Create a Club class with a static variable clubName and a non-static variable memberName.
+Provide a static method displayClubName() to print the club’s name.Create multiple Club objects and assign different member names to each.
+Objective: Show how the static variable clubName is shared across all instances, while memberName remains unique to each object. Prove this by displaying each member’s name alongside the shared club name.
+
+4. Define a Car class with attributes make, model, and year.
+Create a parameterized constructor that uses the this keyword to distinguish constructor parameters from the class fields (e.g., this.make = make;). Instantiate a Car object with specific values (e.g., "Tesla", "Model 3", 2025) and display its details, ensuring the correct assignment of attributes using this.
+
+5.  A company wants to manage a list of products with details such as product ID, name, price, and category. They also want to keep track of the total number of products and calculate the overall stock value.
+Product Class:
+Instance variables: productId, productName, category.
+A private variable price.
+A default constructor setting some default values.
+A parameterized constructor that initializes product details using this to differentiate parameters from class fields.
+A public method getPrice() to access the private price.
+A public method displayProductInfo() to show all details.
+Static Members:
+A static variable totalProducts to count how many Product objects are created.
+A static method displayTotalProducts() to print the total count.
+Method to Calculate Stock Value:
+A method (e.g., calculateStockValue()) to multiply the price by a given quantity (demonstrate method overloading by adding an optional parameter for a discount rate).
+In the main method:
+Create multiple Product objects using both the default and parameterized constructors.
+Call the static method to display the total number of products.
+Display each product’s details, including the price and the calculated stock value for a given quantity.
+
+
+
