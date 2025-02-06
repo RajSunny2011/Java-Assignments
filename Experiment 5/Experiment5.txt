@@ -1,0 +1,31 @@
+EXPERIMENT – 5 
+
+TITLE:  Inheritance & Polymorpishm 
+
+1. Write a Java program to demonstrate that a private member of a superclass cannot be accessed directly from a derived class.
+
+2. Design a Java class Employee with attributes name, empid, and salary. Implement a default 
+constructor, a parameterized constructor, and methods to return the employee’s name and salary.
+Add a method increaseSalary(double percentage) to raise the salary by a userspecified percentage.
+Create a subclass Manager with an additional instance variable department.
+Develop a test program to validate these functionalities.
+
+3. A university has different types of people associated with it, including staff members and students.
+The base class Person contains common attributes such as name, age, and address.
+The class Staff extends Person and adds attributes like staffId and department.
+Further, a subclass Professor extends Staff by introducing an additional attribute, specialization, and a method conductLecture().
+Similarly, the Student class extends Person and adds studentId and course. Finally, the subclassGraduateStudent extends Student, adding researchTopic and a method submitThesis().
+Implement this university management system in Java using multilevel inheritance andmethodoverriding.
+Demonstrate polymorphism by creating an array of Person objects containing instances of Professor and GraduateStudent, and call their respective methods.
+
+4. Design an abstract class named Vehicle with abstract methods such as startEngine() and stopEngine(), as well as a non-abstract method serviceInfo() that prints basic servicing instructions.
+Include a couple of protected or private fields (e.g., make, model) and a constructor for Vehicle that initializes those fields.
+Create a concrete class Car that extends Vehicle and provides implementations for startEngine() and stopEngine().
+Within these methods, include print statements or logic that simulates starting and stopping a car engine.
+Finally, instantiate a Car object in the main method, call all available methods (including the inherited non-abstract method), and verify that your abstraction works as intended.
+
+5. Imagine you’re designing a restaurant management system where you have a base class called Chef with a method makeSpecialDish().
+This method simply prints a generic message indicating that the chef is making a special dish.
+Next, create three subclasses called ItalianChef, ChineseChef, and MexicanChef—each overrides makeSpecialDish() with a distinct print statement, such as "Making pasta", "Making dumplings", or "Making tacos".
+In your main method, declare an array or list of Chef references, but assign each element to a different subclass (ItalianChef, ChineseChef, MexicanChef).
+Use a loop to call the makeSpecialDish() method on each array element and observe how runtime polymorphism ensures that the correct subclass version of makeSpecialDish() is invoked.
