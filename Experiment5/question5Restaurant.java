@@ -25,7 +25,7 @@ class MexicanChef extends Chef {
     }
 }
 
-public class quesiton5Restaurant {
+public class question5Restaurant {
     public static void main(String[] args) {
         Chef[] chefs = {new ItalianChef(), new ChineseChef(), new MexicanChef()};
         for (Chef chef : chefs) {
