@@ -3,11 +3,12 @@ public class question2Customer{
         customer c1 = new customer();
         c1.addBalance(50.0);
         c1.deductBalance(30.0);
+        c1.showBalance();
     }
 }
 class customer{
     private double balance;
-    protected void showBalance() {
+    public void showBalance() {
         System.out.println("Current Balance: $" + String.format("%.2f", balance));
     }
     public void addBalance(double amount) {

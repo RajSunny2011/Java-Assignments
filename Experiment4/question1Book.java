@@ -1,7 +1,7 @@
 public class question1Book {
     public static void main(String[] args) {
         book book1 = new book();
-        book book2 = new book("My Book", "John Doe", 2023);
+        book book2 = new book("Book", "John Doe", 2023);
 
         System.out.println("\nDetails of first book:");
         book1.displayBook();
