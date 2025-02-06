@@ -16,12 +16,10 @@ class book{
     private String author;
     private int year;
     public book() {
-        this("Untitled", "Unkown Author");
+        this("Untitled", "Unkown Author", -1);
     }
     public book(String title, String author) {
-        this.title = title;
-        this.author = author;
-        this.year = -1;
+        this(title, author, -1);
     }
     public book(String title, String author, int year) {
         this.title = title;
