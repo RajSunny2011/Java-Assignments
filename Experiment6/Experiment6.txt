@@ -1,0 +1,31 @@
+Exp 6: Packages & Final Keyword
+
+1) In a taxation system, businesses need to calculate the tax applied to their invoices while ensuring the tax rate remains unchanged.
+ Create a class TaxCalculator that defines a final variable GST_RATE, set to 18.0%, which cannot be modified.
+ Additionally, define a final method displayGST() that prints the tax rate.
+ Create another class Invoice that extends TaxCalculator and includes a method calculateTotalWithTax(double amount), which computes the total amount after applying GST_RATE.
+ In the main() method, test the calculateTotalWithTax() method and observe what happens if you attempt to modify GST_RATE or override displayGST().
+ This exercise will highlight how the final keyword ensures that tax rates remain constant across all calculations.
+
+
+2) A security system needs to protect its authentication mechanism to prevent tampering.
+ Implement a final class named SecuritySystem that includes a method authenticateUser(String username, String password), which verifies user credentials.
+ Then, attempt to create a subclass AdvancedSecurity that tries to extend SecuritySystem and override authenticateUser().
+ Observe the compilation error and explain why a final class cannot be inherited.
+ In the main() method, create an instance of SecuritySystem and use the authenticateUser() method to validate login credentials.
+ This will demonstrate how the final keyword enforces security by preventing unauthorized modifications to authentication logic.
+
+
+3) In a Student Records Management System, personal and academic details of students need to be stored securely while providing controlled access to their data.
+ Create a package named StudentRecords containing a class Student with private attributes studentId, name, and grade.
+ Provide a public constructor to initialize these attributes and a method displayStudentInfo() to print student details.
+ Then, write another program outside the package that imports StudentRecords, creates Student objects, and displays their details.
+ This exercise will illustrate how encapsulation is maintained in Java, allowing data to be accessed only through well-defined public methods while preventing direct modification of private fields.
+
+
+4) In an Online Shopping System, different methods for handling product inventory and discounts need to be securely managed.
+ Create a package ECommerce containing a class Product with a public method getProductDetails() to retrieve product information,
+ A protected method applyDiscount() for internal discount management, a default-access method updateStock() for inventory updates within the same package, and a private method calculateProfit() that computes earnings internally.
+ Then, create another package CustomerPortal with a class CustomerCart that attempts to access these methods from an instance of Product.
+ Demonstrate which methods are accessible and explain how Java’s access control mechanism ensures that only the appropriate users can access sensitive product operations.
+

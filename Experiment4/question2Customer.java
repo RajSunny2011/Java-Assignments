@@ -25,6 +25,6 @@ class customer{
     }
     private void showDetails() {
         System.out.println("\nCustomer Details");
-        System.out.printf("\tBalance: %.2f", balance);
+        System.out.printf("\tBalance: %.2f\n", balance);
     }
 }
